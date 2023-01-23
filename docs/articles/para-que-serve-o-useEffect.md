@@ -32,7 +32,7 @@ function Example() {
 }
 ```
 ## Explicação exemplo 1
-Nesse exemplo, estamos usando o useState para criar um estado chamado count, que começa com o valor 0. Depois, estamos usando o useEffect para mudar o título da página toda vez que o count for alterado. Dentro do useEffect, estamos passando uma função que muda o título da página para "Count: <valor de count>", e como dependência estamos passando o count. Isso significa que toda vez que o count mudar, a função dentro do useEffect será chamada novamente, atualizando o título da página.
+Nesse exemplo, estamos usando o useState para criar um estado chamado count, que começa com o valor 0. Depois, estamos usando o useEffect para mudar o título da página toda vez que o count for alterado. Dentro do useEffect, estamos passando uma função que muda o título da página para "Count: <valor de count />", e como dependência estamos passando o count. Isso significa que toda vez que o count mudar, a função dentro do useEffect será chamada novamente, atualizando o título da página.
 
 É importante notar que, se não houvesse a dependência, a função dentro do useEffect só seria chamada uma vez, quando o componente é renderizado pela primeira vez. Dessa forma, sempre que quisermos que uma função seja chamada sempre que uma determinada variável for alterada, devemos passá-la como dependência do useEffect.
 

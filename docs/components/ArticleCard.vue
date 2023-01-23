@@ -9,13 +9,12 @@
     </a>
   </div>
   <div class="pagination">
-    <span 
-    v-for="i in totalPages()" 
-    :key="i" @click="switchPage(i)"
-    v-bind:class="getBackground(i)"
-    >{{
-      i
-    }}</span>
+    <span
+      v-for="i in totalPages()"
+      :key="i"
+      @click="switchPage(i)"
+      v-bind:class="getBackground(i)"
+      >{{ i }}</span>
   </div>
 </template>
 
@@ -38,7 +37,7 @@ export default {
       this.currentPage = index;
     },
     getBackground(property) {
-      if (property == this.currentPage) return 'selected'
+      if (property == this.currentPage) return "selected";
     },
     totalPages() {
       return Math.ceil(data.length / this.perPage);
