@@ -9,7 +9,11 @@
     </a>
   </div>
   <div class="pagination">
-    <span v-for="i in totalPages()" :key="i" @click="switchPage(i)">{{
+    <span 
+    v-for="i in totalPages()" 
+    :key="i" @click="switchPage(i)"
+    v-bind:class="getBackground(i)"
+    >{{
       i
     }}</span>
   </div>
@@ -30,22 +34,13 @@ export default {
     },
   },
   methods: {
-    nextPage() {
-      if (this.currentPage < Math.ceil(data.length / this.perPage)) {
-        this.currentPage++;
-      }
-    },
-    previousPage() {
-      if (this.currentPage > 1) {
-        this.currentPage--;
-      }
-    },
     switchPage(index) {
       this.currentPage = index;
     },
-
+    getBackground(property) {
+      if (property == this.currentPage) return 'selected'
+    },
     totalPages() {
-      console.log(this.currentPage);
       return Math.ceil(data.length / this.perPage);
     },
   },
@@ -112,15 +107,17 @@ export default {
   width: 2rem;
   height: 2rem;
   display: flex;
-  align-items: 
-  center;
+  align-items: center;
   justify-content: center;
-  cursor: 
-  pointer;
+  cursor: pointer;
 }
 
 .pagination > span:hover {
   width: 2.2rem;
   height: 2.2rem;
+}
+
+.selected {
+  background: #a27b5c;
 }
 </style>

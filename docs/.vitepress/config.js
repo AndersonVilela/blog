@@ -1,7 +1,12 @@
 export default {
   title: "My Blog",
-  description: "Just playing around.",
+  description: "Welcome my blog",
+  lastUpdated: false,
+  head: [
+    ['link', { rel: 'icon', type: "image/png", sizes: "32x32", href: "../assets/logo.png"}]
+  ],
   themeConfig: {
+    logo: "../assets/logo.png",
     nav: [
       { text: "Home", link: "/" },
       { text: "External", link: "https://google.com" },
