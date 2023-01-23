@@ -1,23 +1,29 @@
 {
-  "hash": "4b8368e3",
-  "browserHash": "736831f5",
+  "hash": "2fe7fd15",
+  "browserHash": "fc91ef3c",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "31296b34",
+      "fileHash": "181bc482",
       "needsInterop": false
     },
     "@theme/index": {
       "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "79627be6",
+      "fileHash": "799124b6",
+      "needsInterop": false
+    },
+    "@vercel/analytics": {
+      "src": "../../../../node_modules/@vercel/analytics/dist/index.js",
+      "file": "@vercel_analytics.js",
+      "fileHash": "77001852",
       "needsInterop": false
     },
     "lottie-web": {
       "src": "../../../../node_modules/lottie-web/build/player/lottie.js",
       "file": "lottie-web.js",
-      "fileHash": "aaa81f7c",
+      "fileHash": "ede51e34",
       "needsInterop": true
     }
   },
