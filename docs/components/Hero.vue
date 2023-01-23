@@ -10,6 +10,9 @@
 </template>
 
 <script>
+import { inject } from '@vercel/analytics';
+
+inject();
 export default {
   props: {
     name: {
