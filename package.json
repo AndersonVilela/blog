@@ -1,0 +1,23 @@
+{
+  "name": "vitepress-blog-alb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "node getArticles.mjs && vitepress dev docs",
+    "docs:build": "node getArticles.mjs && vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.40",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "lottie-web": "^5.10.1",
+    "remove-markdown": "^0.5.0"
+  }
+}
