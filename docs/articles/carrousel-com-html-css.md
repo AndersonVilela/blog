@@ -10,6 +10,8 @@ Este código é uma implementação de um carrousel de imagens, também conhecid
 As imagens são controladas através de três inputs do tipo rádio (<input type="radio" />) com o mesmo nome "slider", cada um correspondendo a uma das imagens no carrousel. O input com o atributo "checked" é o que está selecionado inicialmente.
 
 O arquivo CSS associado a este código define estilos para os elementos do carrousel, incluindo a disposição das imagens, tamanhos e margens. O JavaScript também é usado para controlar a exibição das imagens de acordo com a seleção dos inputs do tipo rádio.
+<img src="../assets/carrosel.gif" alt="gif exemplo" />
+
 ## html
 
 ```html
