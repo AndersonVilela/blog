@@ -3,7 +3,7 @@
   <div v-for="item in paginatedData" :key="item.id">
     <a :href="item.path" class="container-item">
       <div class="item">
-        <h2 class="title">{{ item.Title }}</h2>
+        <h2 class="title">{{ item.Title || 'clique em uma tag' }}</h2>
         <p class="date">{{ item.Updated || "default" }}</p>
       </div>
     </a>
@@ -19,17 +19,25 @@
 </template>
 
 <script>
-import data from "../../data.json";
+import { isString } from '@vue/shared';
+
 export default {
+  props: ['data'],
   data: () => ({
     currentPage: 1,
     perPage: 5,
   }),
   computed: {
     paginatedData() {
-      const start = (this.currentPage - 1) * this.perPage;
-      const end = start + this.perPage;
-      return data.slice(start, end);
+
+      if (isString(this.data)) {
+        return 1;
+      }else {
+        const start = (this.currentPage - 1) * this.perPage;
+        const end = start + this.perPage;
+        return this.data.slice(start, end);
+      }
+      
     },
   },
   methods: {
@@ -40,7 +48,12 @@ export default {
       if (property == this.currentPage) return "selected";
     },
     totalPages() {
-      return Math.ceil(data.length / this.perPage);
+      if (isString(this.data)) {
+        return 1;
+      }else {
+
+        return Math.ceil(this.data.length / this.perPage);
+      }
     },
   },
 };

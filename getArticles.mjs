@@ -11,7 +11,7 @@ const data = await Promise.all(
       excerpt_separator: '<!-- more -->',
     });
 
-    const { data, excerpt, path, Title } = file;
+    const { data, excerpt, path, Title, tag } = file;
     const contents = removeMd(excerpt)
       .trim()
       .split(/\r\n|\n|\r/);

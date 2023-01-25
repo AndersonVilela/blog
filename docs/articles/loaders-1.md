@@ -2,6 +2,7 @@
 Author: "Anderson Vilela"
 Updated: "Jan 21, 2023"
 Title: "3 loaders com html e css"
+tag: "css"
 ---
 
 # loaders

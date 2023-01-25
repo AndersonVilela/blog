@@ -2,6 +2,7 @@
 Author: "Anderson Vilela"
 Updated: "Jan 23, 2023"
 Title: "Carrousel com html e css #1"
+tag: "css"
 ---
 
 # Carrousel com html css e javascript

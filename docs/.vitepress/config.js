@@ -17,7 +17,7 @@ export default {
     logo: "../assets/logo.png",
     nav: [
       { text: "Home", link: "/" },
-      { text: "External", link: "https://google.com" },
+      { text: "Tags", link: "/Tags" },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/AndersonVilela" },

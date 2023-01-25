@@ -1,11 +1,11 @@
 {
   "hash": "2fe7fd15",
-  "browserHash": "fc91ef3c",
+  "browserHash": "8ca444c4",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "181bc482",
+      "fileHash": "8f084fb1",
       "needsInterop": false
     },
     "@theme/index": {
@@ -25,9 +25,18 @@
       "file": "lottie-web.js",
       "fileHash": "ede51e34",
       "needsInterop": true
+    },
+    "@vue/shared": {
+      "src": "../../../../node_modules/@vue/shared/dist/shared.esm-bundler.js",
+      "file": "@vue_shared.js",
+      "fileHash": "948f0e22",
+      "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-HQUR2J2E": {
+      "file": "chunk-HQUR2J2E.js"
+    },
     "chunk-RSJERJUL": {
       "file": "chunk-RSJERJUL.js"
     }

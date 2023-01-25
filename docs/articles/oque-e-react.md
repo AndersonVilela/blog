@@ -2,6 +2,7 @@
 Author: "Anderson Vilela"
 Updated: "Jan 21, 2023"
 Title: "Oque é React"
+tag: "react"
 ---
 
 # O que é React.js?

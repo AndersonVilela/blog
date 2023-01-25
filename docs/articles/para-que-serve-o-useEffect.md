@@ -2,6 +2,7 @@
 Author: "Anderson Vilela"
 Updated: "Jan 23, 2023"
 Title: "Você sabe para que serve o UseEffect?"
+tag: "react"
 ---
 
 

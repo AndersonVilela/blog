@@ -8,4 +8,4 @@
 <HomeHero />
 
 <Hero name="Anderson Vilela" subtitle="A Frontend developer (him/her) currently building with vue.js" />
-<ArticleCard />
+<ArticleCard :data="data" />

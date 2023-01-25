@@ -1,0 +1,5 @@
+<script setup>
+import Tags from "./components/Tags.vue";
+</script>
+
+<Tags />
