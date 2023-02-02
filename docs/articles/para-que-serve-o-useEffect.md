@@ -37,7 +37,21 @@ Nesse exemplo, estamos usando o useState para criar um estado chamado count, que
 
 É importante notar que, se não houvesse a dependência, a função dentro do useEffect só seria chamada uma vez, quando o componente é renderizado pela primeira vez. Dessa forma, sempre que quisermos que uma função seja chamada sempre que uma determinada variável for alterada, devemos passá-la como dependência do useEffect.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4349091134125615" crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4349091134125615"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4349091134125615"
+     data-ad-slot="4031581483"
+     >
+     </ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ## Exemplo 
 
 ```js{6-13}
