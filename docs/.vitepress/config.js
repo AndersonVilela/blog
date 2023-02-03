@@ -13,6 +13,14 @@ export default {
       },
     ],
   ],
+  plugins: [
+    [
+      "vuepress-plugin-google-adsense",
+      {
+        adClient: "ca-pub-4349091134125615", // replace it with your adClient
+      },
+    ],
+  ],
   themeConfig: {
     logo: "../assets/logo.png",
     nav: [

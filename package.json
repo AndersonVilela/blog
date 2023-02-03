@@ -13,7 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.40",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "vuepress-plugin-google-adsense": "^0.2.1"
   },
   "dependencies": {
     "@vercel/analytics": "^0.1.8",
