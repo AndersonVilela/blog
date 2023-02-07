@@ -15,9 +15,9 @@ export default {
   ],
   plugins: [
     [
-      "vuepress-plugin-google-adsense",
+      "vuepress-plugin-google-adsense2",
       {
-        adClient: "ca-pub-4349091134125615", // replace it with your adClient
+        id: 'ca-pub-4349091134125615'
       },
     ],
   ],
