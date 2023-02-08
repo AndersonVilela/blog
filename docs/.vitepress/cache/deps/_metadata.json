@@ -1,36 +1,36 @@
 {
-  "hash": "c80d309e",
-  "browserHash": "d1358298",
+  "hash": "ec79d87b",
+  "browserHash": "72d85f38",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "363b3957",
+      "fileHash": "7b167416",
       "needsInterop": false
     },
     "@theme/index": {
       "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "8da6d4b4",
+      "fileHash": "c4ea454c",
       "needsInterop": false
     },
     "@vue/shared": {
       "src": "../../../../node_modules/@vue/shared/dist/shared.esm-bundler.js",
       "file": "@vue_shared.js",
-      "fileHash": "c6f69de6",
-      "needsInterop": false
-    },
-    "@vercel/analytics": {
-      "src": "../../../../node_modules/@vercel/analytics/dist/index.js",
-      "file": "@vercel_analytics.js",
-      "fileHash": "1b7089d2",
+      "fileHash": "74f40e82",
       "needsInterop": false
     },
     "lottie-web": {
       "src": "../../../../node_modules/lottie-web/build/player/lottie.js",
       "file": "lottie-web.js",
-      "fileHash": "eec329a7",
+      "fileHash": "67e10ade",
       "needsInterop": true
+    },
+    "@vercel/analytics": {
+      "src": "../../../../node_modules/@vercel/analytics/dist/index.js",
+      "file": "@vercel_analytics.js",
+      "fileHash": "7824f2e2",
+      "needsInterop": false
     }
   },
   "chunks": {
