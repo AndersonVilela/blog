@@ -1,3 +1,10 @@
+---
+Author: "Anderson Vilela"
+Updated: "Feb 09, 2023"
+Title: "Criando todo-list vue 3 usando cookie"
+tag: "vue.js"
+---
+
 # Como Criar um todo list com Vue 3 utilizando Cookies
 
 ## Setup
