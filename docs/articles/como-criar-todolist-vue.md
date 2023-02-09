@@ -21,7 +21,7 @@ Após isso de um cd no seu projeto e digite:
 $ npm install
 
 ```
-após isso vocês instalaram todas as dependências do projeto então já pode digitar "npm run dev" para rodar o projeto, então coloque no chrome "http://localhost:5173"
+após isso vocês instalaram todas as dependências do projeto então já pode digitar "npm run dev" para rodar o projeto.
 
 ## CSS
 como esse post é focado em javascript então vou disponibilizar o css então acrescente dentro da tag style dentro do arquivo App.vue
