@@ -120,7 +120,7 @@ function write() {
   setTimeout(write, speed)
 }
 // cria um evento no input para que o valor de speed seja alterado assim que o usuario
-// acrescente o diminua o input tipo number contigo no html
+  // acrescente o diminua o input tipo number contigo no html
 speedElement.addEventListener('input', (e) => speed = 300 / e.target.value)
 
 ```
