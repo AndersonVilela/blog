@@ -1,26 +1,26 @@
 import "./chunk-RSJERJUL.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
-import "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
-import "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
-import "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/styles/base.css";
-import "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
-import "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
-import "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
-import "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
-import "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
-import "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
-import VPBadge from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import Layout from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import NotFound from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/NotFound.vue";
-import { default as default2 } from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default3 } from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default4 } from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default5 } from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default6 } from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default7 } from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default8 } from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default9 } from "/home/tioalb/Development/blog/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+import "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
+import "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
+import "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/styles/base.css";
+import "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
+import "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
+import "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
+import "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
+import "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
+import "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
+import VPBadge from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import Layout from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/Layout.vue";
+import NotFound from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/NotFound.vue";
+import { default as default2 } from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default3 } from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default4 } from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default5 } from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default6 } from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default7 } from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default8 } from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default9 } from "/home/tioalb/development/blog/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 var theme = {
   Layout,
   NotFound,

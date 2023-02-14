@@ -27,7 +27,8 @@ export default {
       "css",
       "javascript",
       "typescript",
-      "vue.js"
+      "vue.js",
+      "outros"
     ],
     filtered: 'clique em uma tag',
   }),
