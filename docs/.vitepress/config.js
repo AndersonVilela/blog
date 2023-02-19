@@ -9,6 +9,7 @@ export default {
         "data-ad-client": "ca-pub-4349091134125615",
         async: true,
         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        crossorigin: "anonymous",
       },
     ],
     [
