@@ -4,15 +4,6 @@ export default {
   lastUpdated: false,
   head: [
     [
-      "script",
-      {
-        "data-ad-client": "ca-pub-4349091134125615",
-        async: true,
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-        crossorigin: "anonymous",
-      },
-    ],
-    [
       "link",
       {
         rel: "icon",
@@ -24,9 +15,9 @@ export default {
   ],
   plugins: [
     [
-      "vuepress-plugin-google-adsense2",
+      "vuepress-plugin-google-adsense",
       {
-        id: 'ca-pub-4349091134125615'
+        adClient: "ca-pub-4349091134125615",
       },
     ],
   ],
